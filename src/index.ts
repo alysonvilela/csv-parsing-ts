@@ -1,3 +1,5 @@
 import { FastCsvStream } from "./csv-parsing/fast-csv";
+import { ReadLineStream } from "./csv-parsing/readline";
 
-console.log("run");
+FastCsvStream.execute();
+// ReadLineStream.execute()

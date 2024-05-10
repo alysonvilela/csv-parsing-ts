@@ -1,5 +1,5 @@
 
-# Stream CSV TS - Perform study
+# Stream CSV TS - performance poc
 This project is a study case for method of reading lines using ReadableStreams on Nodejs.
 
 The purpose is verify what is the performant way to process data and migrate them to database or external services.

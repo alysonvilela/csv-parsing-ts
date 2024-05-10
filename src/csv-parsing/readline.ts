@@ -1,13 +1,12 @@
 import { createReadStream } from "fs";
-import { Readline } from "node:readline/promises";
-import { createInterface } from "readline";
+import { createInterface } from "node:readline";
 import { asapScheduler, from } from "rxjs";
 import { logger } from "../utils/logger";
 import { getData } from "../utils/get-data";
 
 export class ReadLineStream {
   public static execute() {
-    const file = createReadStream("file.csv");
+    const file = createReadStream("bigfile.csv");
     const line = createInterface({
       input: file,
     });
